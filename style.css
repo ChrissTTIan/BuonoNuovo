@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  background: white;
+  font-size: 15px;
+  line-height: 1.6;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+
+}
+div.wrapper{
+  width: 100%;
+  margin: 0;
+}
+section{
+  display: -webkit-box;
+}
+       /* BARRA ORIZZONTALE */
+
+#topbar{
+  background: #012060;
+  background-size: cover;
+  height: 44px;
+
+}
+.top-nav{
+  display: flex;
+  margin: 0 auto;
+  padding: 0px;
+  position: fixed;
+}
+.top-nav li{
+  list-style: none;
+}
+.top-nav li:first-child{
+  float: left;
+  margin-right: 117px;
+  background: white;
+}
+.logo a{
+  color:white;
+  background: red;
+  padding:10px 10px;
+  text-decoration: none;
+  display: block;
+  margin-top: 0px;
+}
+.non-logo a{
+  color:white;
+  background: red;
+  padding:10px 5px;
+  text-decoration: none;
+  display: block;
+  margin-top: 0px;
+}
+
+        /* BARRA LATERALE */
+.lat-bar{
+  height: 100vh;
+  width: 169px;
+  background: blue;
+  position: fixed;
+}
+.lat-nav{
+  margin-top: 7px;
+  padding: 0;
+  display: block;
+}
+.lat-nav li{
+  list-style: none;
+}
+.lat-nav a{
+  display: block;
+  color:white;
+  background: red;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 0px;
+  margin-bottom: 10px
+}
+li.sottocap{
+  font-size: 20px;
+  font-weight: 900;
+}
+li.sottocap-s{
+  font-size: 15px;
+  font-style: oblique;
+}
+        /* MAIN */
+.pagina{
+  margin-left: 175px;
+  height: 110%;
+  width: 70vw;
+  margin-top: 22px;
+  border: solid 1px;
+}
