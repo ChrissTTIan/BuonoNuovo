@@ -7,10 +7,6 @@ body{
   -webkit-font-smoothing: antialiased;
 
 }
-div.wrapper{
-  width: 100%;
-  margin: 0;
-}
 section{
   display: -webkit-box;
 }
@@ -20,7 +16,12 @@ section{
   background: #012060;
   background-size: cover;
   height: 44px;
-
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 .top-nav{
   display: flex;
@@ -61,7 +62,7 @@ section{
   position: fixed;
 }
 .lat-nav{
-  margin-top: 7px;
+  margin-top: 50px;
   padding: 0;
   display: block;
 }
@@ -90,6 +91,6 @@ li.sottocap-s{
   margin-left: 175px;
   height: 110%;
   width: 70vw;
-  margin-top: 22px;
+  margin-top: 50px;
   border: solid 1px;
 }
