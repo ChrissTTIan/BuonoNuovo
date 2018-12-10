@@ -5,10 +5,12 @@ body{
   line-height: 1.6;
   color: black;
   -webkit-font-smoothing: antialiased;
-
 }
 section{
   display: -webkit-box;
+}
+a{
+  color: white;
 }
        /* BARRA ORIZZONTALE */
 
@@ -31,6 +33,7 @@ section{
 }
 .top-nav li{
   list-style: none;
+  border-radius: 10px;
 }
 .top-nav li:first-child{
   float: left;
@@ -46,16 +49,18 @@ section{
   margin-top: 0px;
 }
 .non-logo a{
-  color:white;
-  background: red;
   padding:10px 5px;
   text-decoration: none;
   display: block;
   margin-top: 0px;
 }
+.attivo{
+  color: black;
+  background: white;
+}
 
         /* BARRA LATERALE */
-.lat-bar{
+#lat-bar{
   height: 100vh;
   width: 169px;
   background: blue;
@@ -93,4 +98,15 @@ li.sottocap-s{
   width: 70vw;
   margin-top: 50px;
   border: solid 1px;
+}
+
+        /* FOOTER */
+#footer{
+margin-right: 0px;
+}
+.footer{
+width: 100%;
+}
+marquee{
+  color:red;
 }
