@@ -12,6 +12,9 @@ section{
 a{
   color: white;
 }
+.corsivo{
+  color:red !important;
+}
        /* BARRA ORIZZONTALE */
 
 #topbar{
@@ -63,7 +66,7 @@ a{
 #lat-bar{
   height: 100vh;
   width: 169px;
-  background: blue;
+  background: #cccccc;
   position: fixed;
 }
 .lat-nav{
@@ -75,21 +78,28 @@ a{
   list-style: none;
 }
 .lat-nav a{
+  color:black;
   display: block;
-  color:white;
-  background: red;
+  /* background: red; */
   padding: 10px 20px;
   text-decoration: none;
   margin-left: 0px;
-  margin-bottom: 10px
+  border-bottom: 10px solid #cccccc;
+}
+.attivotop {
+  background: white;
+  color:black;
+  border-bottom: 10px solid #ffffff !important;
 }
 li.sottocap{
   font-size: 20px;
   font-weight: 900;
+  background: #cccccc;
 }
 li.sottocap-s{
   font-size: 15px;
   font-style: oblique;
+  background: #cccccc;
 }
         /* MAIN */
 .pagina{
