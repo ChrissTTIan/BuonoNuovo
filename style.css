@@ -18,7 +18,14 @@ a{
        /* BARRA ORIZZONTALE */
 
 #topbar{
-  background: #012060;
+  background: rgba(134,181,204,1);
+  background: -moz-linear-gradient(45deg, rgba(134,181,204,1) 0%, rgba(134,181,204,1) 17%, rgba(1,33,96,1) 29%, rgba(1,33,96,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(134,181,204,1)), color-stop(17%, rgba(134,181,204,1)), color-stop(29%, rgba(1,33,96,1)), color-stop(100%, rgba(1,33,96,1)));
+  background: -webkit-linear-gradient(45deg, rgba(134,181,204,1) 0%, rgba(134,181,204,1) 17%, rgba(1,33,96,1) 29%, rgba(1,33,96,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(134,181,204,1) 0%, rgba(134,181,204,1) 17%, rgba(1,33,96,1) 29%, rgba(1,33,96,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(134,181,204,1) 0%, rgba(134,181,204,1) 17%, rgba(1,33,96,1) 29%, rgba(1,33,96,1) 100%);
+  background: linear-gradient(45deg, rgba(134,181,204,1) 0%, rgba(134,181,204,1) 17%, rgba(1,33,96,1) 29%, rgba(1,33,96,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86b5cc', endColorstr='#012160', GradientType=1 );
   background-size: cover;
   height: 44px;
   z-index: 10;
@@ -45,7 +52,7 @@ a{
 }
 .logo a{
   color:white;
-  background: red;
+  background:#86b5cc;
   padding:10px 10px;
   text-decoration: none;
   display: block;
@@ -61,12 +68,17 @@ a{
   color: black;
   background: white;
 }
+.attivotop {
+  background: white;
+  color:black;
+  border-bottom: 10px solid #ffffff !important;
+}
 
         /* BARRA LATERALE */
 #lat-bar{
   height: 100vh;
   width: 169px;
-  background: #cccccc;
+  background: #86b5cc;
   position: fixed;
 }
 .lat-nav{
@@ -84,22 +96,21 @@ a{
   padding: 10px 20px;
   text-decoration: none;
   margin-left: 0px;
-  border-bottom: 10px solid #cccccc;
+  border-bottom: 10px solid #86b5cc;
 }
-.attivotop {
-  background: white;
-  color:black;
-  border-bottom: 10px solid #ffffff !important;
+.lat-nav a:active{
+  color:red;
 }
 li.sottocap{
   font-size: 20px;
   font-weight: 900;
-  background: #cccccc;
+  background: #86b5cc;
 }
 li.sottocap-s{
   font-size: 15px;
   font-style: oblique;
-  background: #cccccc;
+  background: #86b5cc;
+  font-weight: bolder;
 }
         /* MAIN */
 .pagina{

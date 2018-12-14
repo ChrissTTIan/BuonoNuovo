@@ -15,6 +15,14 @@ var x = document.getElementById(num);
 if(num=="link1"){
   if(x.className==="nada"){
   x.className+=" attivo";
+  document.getElementById('link2').className="nada";
+  document.getElementById('link3').className="nada";
+  document.getElementById('link4').className="nada";
+  document.getElementById('link5').className="nada";
+  document.getElementById('link6').className="nada";
+  document.getElementById('link7').className="nada";
+  document.getElementById('link8').className="nada";
+
 }else{
   x.className ="nada";
 }
@@ -27,22 +35,30 @@ if(num=="link1"){
    b.className += " attivotop";
    c.className += " attivotop";
    d.className += " attivotop";
+   document.getElementById('link1').className="nada";
+   document.getElementById('link6').className="nada";
+   document.getElementById('link7').className="nada";
+   document.getElementById('link8').className="nada";
+}else if (num=="link6"||num=="link7"||num=="link8") {
+  var f = document.getElementById("link6");
+  var g = document.getElementById("link7");
+  var h = document.getElementById("link8");
+  f.className += " attivotop";
+  g.className += " attivotop";
+  h.className += " attivotop";
+  document.getElementById('link1').className="nada";
+  document.getElementById('link2').className="nada";
+  document.getElementById('link3').className="nada";
+  document.getElementById('link4').className="nada";
+  document.getElementById('link5').className="nada";
 } else {
-  x.className ="nada"
+  x.className ="nada";
   a.className ="nada";
   b.className ="nada";
   c.className ="nada";
   d.className ="nada";
+  f.className ="nada";
+  g.className ="nada";
+  h.className ="nada";
 }
-}
-
-function corsiva(num){
-  console.log("bella");
-  var x = document.getElementById(num);
-    console.log(x.className);
-    if(x.className==="nada attivotop"){
-    x.className+=" corsivo";
-  }else{
-    x.className="nada";
-  }
 }
