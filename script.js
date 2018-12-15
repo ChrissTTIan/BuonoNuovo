@@ -1,20 +1,9 @@
-function attivatop(num){  //attiva quello cliccato della topbar
-  console.log("ci sono");
-var x = document.getElementById(num);
-if (x.className === "nada"){
-  x.className+=" attivo";
-}
-else {
-  x.className="nada";
-}
-}
-
 function attivalat(num){
-console.log("ci sono anche qui");
+// console.log("ci sono anche qui");
 var x = document.getElementById(num);
 if(num=="link1"){
   if(x.className==="nada"){
-  x.className+=" attivo";
+  x.className+=" attivotop";
   document.getElementById('link2').className="nada";
   document.getElementById('link3').className="nada";
   document.getElementById('link4').className="nada";
@@ -61,4 +50,28 @@ if(num=="link1"){
   g.className ="nada";
   h.className ="nada";
 }
+}
+
+function corsiva(daattivare){
+  var x = document.getElementById(daattivare);
+    x.className+=" attivo";
+  pulisci(daattivare);
+}
+
+function pulisci(danonpulire){
+  var no=0;
+  // console.log("esghere "+danonpulire);
+  var links=["link3","link4","link5","link7","link8"];
+  // console.log("links= "+links);
+  for(var i=0;i<5;i++){
+      if(links[i]==danonpulire){
+        no=i;
+      }
+}
+  links.splice(no, 1);
+    // console.log("no="+no+" links2= "+links);
+  for(i=0;i<4;i++){
+    var f=document.getElementById(links[i]);
+    f.classList.remove("attivo");
+  }
 }

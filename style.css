@@ -27,7 +27,7 @@ a{
   background: linear-gradient(45deg, rgba(134,181,204,1) 0%, rgba(134,181,204,1) 17%, rgba(1,33,96,1) 29%, rgba(1,33,96,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86b5cc', endColorstr='#012160', GradientType=1 );
   background-size: cover;
-  height: 44px;
+  height: 50px;
   z-index: 10;
   position: fixed;
   width: 100%;
@@ -48,7 +48,6 @@ a{
 .top-nav li:first-child{
   float: left;
   margin-right: 117px;
-  background: white;
 }
 .logo a{
   color:white;
@@ -65,8 +64,8 @@ a{
   margin-top: 0px;
 }
 .attivo{
-  color: black;
-  background: white;
+  color: #F0D409 !important;
+
 }
 .attivotop {
   background: white;
@@ -98,9 +97,6 @@ a{
   margin-left: 0px;
   border-bottom: 10px solid #86b5cc;
 }
-.lat-nav a:active{
-  color:red;
-}
 li.sottocap{
   font-size: 20px;
   font-weight: 900;
@@ -117,8 +113,9 @@ li.sottocap-s{
   margin-left: 175px;
   height: 110%;
   width: 70vw;
-  margin-top: 50px;
-  border: solid 1px;
+  margin-top: 55px;
+  /* border: solid 1px;
+  border-radius: 15px; */
 }
 
         /* FOOTER */
