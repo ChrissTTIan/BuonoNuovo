@@ -97,6 +97,9 @@ a{
   margin-left: 0px;
   border-bottom: 10px solid #86b5cc;
 }
+.lat-nav a:hover{
+  color: #F0D409;
+}
 li.sottocap{
   font-size: 20px;
   font-weight: 900;
