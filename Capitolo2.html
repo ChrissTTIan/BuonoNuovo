@@ -25,7 +25,7 @@ display:none;
 <head>
   <meta charset="utf-8">
   <link href="style.css" rel="stylesheet" type="text/css">
-  <!-- <script src="script.js"></script> -->
+  <script src="script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
   </script>
   <!-- per auto refresh in fase di sviluppo -->
@@ -37,8 +37,8 @@ display:none;
 <body>
   <section id="topbar">
     <nav>
-      <ul class="top-nav chiuso">
-        <li class="logo"><a href="index.html">&#x1F3E0;</a></li>
+      <ul id="ad" class="top-nav chiuso">
+        <li class="logo"><a id="logo" href="index.html">&#x1F3E0;</a></li>
         <li class="non-logo "><a href="#" >1. Funzioni</a></li>
         <li class="non-logo "><a class="attivotop">2. Continuit&agrave;</a></li>
         <li class="non-logo "><a href="#" >3. Sistemi</a></li>
@@ -47,7 +47,7 @@ display:none;
         <li class="non-logo "><a href="#" >6. Nonloso</a></li>
         <li class="non-logo "><a href="#" >7. Provaprovaprova</a></li>
       </ul>
-      <p class="btn-mostra"><a>&#x2630;</a></p>
+      <p class="btn-mostra" onclick="apri()"><a>&#x2630;</a></p>
     </nav>
   </section>
 
