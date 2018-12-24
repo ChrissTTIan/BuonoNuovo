@@ -154,21 +154,15 @@ marquee{
   }
   #topbar{
     background: rgb(1,32,96);
-    width: 100%;
-    height: 30px;
   }
   .logo a{
     background: rgb(1,32,96);
-    font-size: 15px !important;
-    margin-top: -35px;
-    padding:10px 10px 0px 10px;
   }
   .btn-mostra{
     display: block;
     position: absolute;
-    font-size: 15px;
-    margin-left: 85vw;
-    margin-top: -5px;
+    margin-left: 90vw;
+    margin-top: 0px;
   }
   #lat-bar{
     display:none;
@@ -176,24 +170,20 @@ marquee{
   .pagina{
     height: 110%;
     width: 80vw;
-    margin-left: 5px;
+    margin-left: 25px;
   }
   .non-logo{
     display: block;
   }
   .top-nav{
-    margin-top: 30px;
-    background: rgb(1,32,96);
+    margin-top: 60px;
+    background:red;
     display: block;
     width: 100%;
     text-align: center;
   }
-  .top-nav a:not(#logo){
-    font-size: 10px;
-    padding: 5px 5px;
-  }
   .logo{
-
+    margin-top: -60px;
   }
 }
 
