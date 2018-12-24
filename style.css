@@ -49,7 +49,7 @@ a{
 .logo a{
   color:white;
   background:#86b5cc;
-  padding:10px 10px;
+  padding:10px 10px 7px 10px;
   text-decoration: none;
   display: block;
   margin-top: 0px;
@@ -79,6 +79,11 @@ a{
 a.attivotop {
   background: white;
   color:black;
+}
+.btn-mostra{
+  display: none;
+  font-size: 27px;
+  padding: 9px 0;
 }
 
         /* BARRA LATERALE */
@@ -140,4 +145,52 @@ width: 100%;
 }
 marquee{
   color:red;
+}
+
+        /* VISUALIZZAZIONE CELLULARE */
+@media screen and (max-width:915px){
+  .chiuso{
+    display: none !important;
+  }
+  #topbar{
+    background: rgb(1,32,96);
+  }
+  .logo a{
+    background: rgb(1,32,96);
+  }
+  .btn-mostra{
+    display: block;
+    position: absolute;
+    margin-left: 90vw;
+    margin-top: 0px;
+  }
+  #lat-bar{
+    display:none;
+  }
+  .pagina{
+    height: 110%;
+    width: 80vw;
+    margin-left: 25px;
+  }
+  .non-logo{
+    display: block;
+  }
+  .top-nav{
+    margin-top: 60px;
+    background:red;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .logo{
+    margin-top: -60px;
+  }
+}
+
+
+
+
+
+
+
 }
