@@ -12,9 +12,6 @@ section{
 a{
   color: white;
 }
-.corsivo{
-  color:red !important;
-}
        /* BARRA ORIZZONTALE */
 
 #topbar{
@@ -26,11 +23,11 @@ a{
   background: -ms-linear-gradient(45deg, rgba(134,181,204,1) 0%, rgba(134,181,204,1) 17%, rgba(1,33,96,1) 29%, rgba(1,33,96,1) 100%);
   background: linear-gradient(45deg, rgba(134,181,204,1) 0%, rgba(134,181,204,1) 17%, rgba(1,33,96,1) 29%, rgba(1,33,96,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86b5cc', endColorstr='#012160', GradientType=1 );
-  background-size: cover;
-  height: 50px;
+  background-size: contain;
+  height: 60px;
   z-index: 10;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   margin: 0;
   margin-left: 0px;
   margin-top: 0px;
@@ -56,21 +53,32 @@ a{
   text-decoration: none;
   display: block;
   margin-top: 0px;
+  margin-left: 10px;
+  font-size: 27px;
+}
+.logo a:hover{
+  color:#BECBBC;
 }
 .non-logo a{
-  padding:10px 5px;
+  padding:18px 5px;
   text-decoration: none;
   display: block;
   margin-top: 0px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 15px;
+}
+.non-logo a:hover{
+  color:#BECBBC;
 }
 .attivo{
   color: #F0D409 !important;
-
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
 }
-.attivotop {
+a.attivotop {
   background: white;
   color:black;
-  border-bottom: 10px solid #ffffff !important;
 }
 
         /* BARRA LATERALE */
@@ -98,11 +106,12 @@ a{
   border-bottom: 10px solid #86b5cc;
 }
 .lat-nav a:hover{
-  color: #F0D409;
+  color: #BECBBC;
 }
 li.sottocap{
+  padding: 5px 0px;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 700;
   background: #86b5cc;
 }
 li.sottocap-s{
@@ -110,6 +119,7 @@ li.sottocap-s{
   font-style: oblique;
   background: #86b5cc;
   font-weight: bolder;
+  padding: 7px 0px;
 }
         /* MAIN */
 .pagina{
