@@ -44,8 +44,7 @@ a{
   border-radius: 10px;
 }
 .top-nav li:first-child{
-  float: left;
-  margin-right: 117px;
+  margin-left: 75px;
 }
 .logo a{
   color:white;
@@ -53,7 +52,7 @@ a{
   padding:10px 10px 7px 10px;
   text-decoration: none;
   display: block;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-left: 10px;
   font-size: 27px;
 }
@@ -61,10 +60,10 @@ a{
   color:#BECBBC;
 }
 .non-logo a{
-  padding:18px 5px;
+  padding:10px 5px;
   text-decoration: none;
   display: block;
-  margin-top: 0px;
+  margin-top: 5px;
   border-radius: 15px;
   text-transform: uppercase;
   font-weight: 900;
@@ -80,6 +79,7 @@ a{
 a.attivotop {
   background: white;
   color:black;
+  margin: 5px;
 }
 .btn-mostra{
   display: none;
@@ -103,7 +103,7 @@ a.attivotop {
   list-style: none;
 }
 .lat-nav a{
-  color:black;
+  color:white;
   display: block;
   /* background: red; */
   padding: 10px 20px;
@@ -129,14 +129,13 @@ li.sottocap-s{
 }
         /* MAIN */
 .pagina{
-  margin-left: 175px;
+  margin-left: 120px;
   height: 110%;
   width: 70vw;
   margin-top: 55px;
   /* border: solid 1px;
   border-radius: 15px; */
 }
-
         /* FOOTER */
 #footer{
 margin-right: 0px;
@@ -158,18 +157,29 @@ marquee{
     width: 100%;
     height: 30px;
   }
+  .strumenti-top th{
+    width: 50vw;
+    font-size: 15px;
+    height: 20px;
+  }
+  table.strumenti-top{
+    position: absolute;
+    width:100vw;
+    background: red;
+    margin-top: 0px;
+    margin: 0;
+    height: 20px;
+  }
   .logo a{
     background: rgb(1,32,96);
     font-size: 15px !important;
-    margin-top: -35px;
-    padding:10px 10px 0px 10px;
+    height: 20px;
+    /* margin-top: -25px; */
+    /* padding:10px 10px 0px 10px; */
   }
   .btn-mostra{
     display: block;
-    position: absolute;
     font-size: 15px;
-    margin-left: 85vw;
-    margin-top: -5px;
   }
   #lat-bar{
     display:none;
@@ -189,12 +199,9 @@ marquee{
     width: 100%;
     text-align: center;
   }
-  .top-nav a:not(#logo){
+  .top-nav a{
     font-size: 10px;
     padding: 5px 5px;
-  }
-  .logo{
-
   }
 }
 
