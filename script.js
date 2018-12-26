@@ -75,6 +75,8 @@
 //     f.classList.remove("attivo");
 //   }
 // }
+
+                                  // NUOVE
 function apri(){
 console.log("ci sono");
 var x = document.getElementById("ad");
